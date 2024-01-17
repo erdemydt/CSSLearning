@@ -1,0 +1,41 @@
+@import 'buttons';
+
+.navbar {
+    background-color: $light-yellow;
+    font-size: 3.3rem;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        list-style: none;
+        display: flex;
+
+
+
+        li {
+
+            &:first-child {
+                margin-left: .5rem;
+            }
+
+            a {
+                padding: 4px;
+                color: $dark-color-2;
+                text-decoration: none;
+
+            }
+
+            #login {
+                @include button(#926363, $light-color-beg);
+
+
+            }
+
+            margin: .1rem 1.5rem;
+
+        }
+    }
+}

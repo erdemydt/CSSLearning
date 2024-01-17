@@ -1,0 +1,93 @@
+.genButton{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 7px 10px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: .4s;
+    
+
+}
+.smallB{
+    font-size: 20px;
+}
+.bigB{
+    font-size: 30px;
+}
+.blueBut{
+    background-color: #0096d3;
+    color: #eeebc2;
+    border: solid 1px #0096d3;
+}
+.blueBut:hover{
+    background-color: #F7F7F9;
+    color: #0096d3;
+
+}
+.redBut{
+    background-color: #B20000;
+    color: #FEF4C0;
+    border: solid 1px #B20000AC;
+    
+}
+.redBut:hover{
+    background-color: #F7F7F9;
+    color: #B20000;
+}
+
+.greenBut{
+    background-color: #5C7728;
+    color: #F7F7F9;
+    border: solid 1px #5C7728;
+    
+}
+.greenBut:hover{
+    color: #5C7728;
+    background-color: #F7F7F9;
+
+}
+
+.blueButIn{
+    background-color: #F7F7F9;
+    color: #0096d3;
+    border: solid 1px #0096d3;
+}
+.blueButIn:hover{
+    background-color: #0096d3;
+    color: #F7F7F9;
+
+}
+.redButIn{
+    background-color: #FEF4C0;
+    color: #B20000;
+    border: solid 1px #B20000AC;
+    
+}
+.redButIn:hover{
+    background-color: #B20000;
+    color: #FEF4C0;
+}
+
+.greenButIn{
+    background-color: #5C7728;
+    color: #F7F7F9;
+    border: solid 1px #5C7728;
+    
+}
+.greenButIn:hover{
+    color: #5C7728;
+    background-color: #F7F7F9;
+
+}
+.violetButIn{
+    background-color: #806491;
+    color: #F7F7F9;
+    border: solid 1px #806491;
+    
+}
+.violetButIn:hover{
+    color: #806491;
+    background-color: #F7F7F9;
+
+}

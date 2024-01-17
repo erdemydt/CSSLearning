@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'navbar';
+@import 'buttons';
+@import 'utilities';
+
+
+
+* {
+    transition: all .5s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+html {
+    font-family: $lato;
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+body {
+    background-color: $color-niceWhite;
+    font-size: 1.6rem;
+}
+ 

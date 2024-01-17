@@ -1,0 +1,56 @@
+.genCard{
+    width: calc(33.3% - 40px);
+    padding: 5px;
+    background-color: #aee2ff;
+    float: left;
+    margin: 5px 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.5s;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+
+    
+}
+
+.genCard li{
+    margin-bottom: 7px;
+    color: #27272d;
+}
+.genCard ul{
+    list-style: none;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.genCard:hover{
+    background-color: #daf3f1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform:scale(1.03);
+    border-radius: 12px;
+    transform: translateY(-3px);
+}
+.plans {
+    position: relative;
+    top: 15px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .plans a{
+    text-decoration: none;
+
+  }
+
+  .plans h2 {
+    color: #43344c;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+  }
+

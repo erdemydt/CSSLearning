@@ -1,0 +1,16 @@
+@mixin button($color , $bgcolor) {
+    &:hover {
+        background-color: $color;
+        color: $bgcolor;
+        border: solid 1px $bgcolor;
+    }
+    transition: all .5s;
+    border-radius: .8rem;
+    border: solid 1px $color;
+    font-family: 'Montserrat' ,serif;
+    font-weight: 100;
+
+}
+.animation-5s{
+    transition-duration: .5s;
+}

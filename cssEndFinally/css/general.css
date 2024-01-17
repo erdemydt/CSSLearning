@@ -1,0 +1,65 @@
+.animation-5s {
+  transition-duration: 0.5s;
+}
+
+.navbar {
+  background-color: #67c5cc;
+  font-size: 3.3rem;
+  position: fixed;
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  margin: 0.1rem 1.5rem;
+}
+.navbar ul li:first-child {
+  margin-left: 0.5rem;
+}
+.navbar ul li a {
+  padding: 4px;
+  color: #453C67;
+  text-decoration: none;
+}
+.navbar ul li #login {
+  transition: all 0.5s;
+  border-radius: 0.8rem;
+  border: solid 1px #926363;
+  font-family: "Montserrat", serif;
+  font-weight: 100;
+}
+.navbar ul li #login:hover {
+  background-color: #926363;
+  color: #FAF7F0;
+  border: solid 1px #FAF7F0;
+}
+
+.animation-5s {
+  transition-duration: 0.5s;
+}
+
+html {
+  height: 2000px;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(70, 70, 70);
+  background: linear-gradient(180deg, rgba(152, 168, 248, 0.6431372549) 0%, #FAF7F0 20%);
+}
+
+/*# sourceMappingURL=general.css.map */

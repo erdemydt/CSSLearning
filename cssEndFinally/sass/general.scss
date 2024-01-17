@@ -1,0 +1,24 @@
+$color: red;
+@import 'variables';
+@import 'navbar';
+@import 'buttons';
+html {
+    height: 2000px;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(70, 70, 70);
+    background: linear-gradient(180deg, #98a8f8a4 0%, #FAF7F0 20%);
+    
+ 
+}
